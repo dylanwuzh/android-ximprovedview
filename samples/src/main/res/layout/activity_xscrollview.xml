@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Set MaxHeight: 600px"
+        android:textAllCaps="false" />
+
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:checked="true"
+        android:text="Bounce Enabled" />
+
+    <com.ximprovedview.android.XScrollView
+        android:id="@+id/sv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="#e0e0e0"
+        android:fadeScrollbars="true"
+        android:overScrollMode="always"
+        app:xsv_bounceEnabled="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:lineSpacingExtra="6dp"
+            android:paddingBottom="16dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:paddingTop="16dp"
+            android:text="XScrollView Demo\n1. Some words just for fill the ScrollView.\n2. Some words just for fill the ScrollView.\n3. Some words just for fill the ScrollView.\n4. Some words just for fill the ScrollView.\n5. Some words just for fill the ScrollView.\n6. Some words just for fill the ScrollView.\n7. Some words just for fill the ScrollView.\n8. Some words just for fill the ScrollView."
+            android:textColor="#555555" />
+    </com.ximprovedview.android.XScrollView>
+
+    <com.ximprovedview.android.XScrollView
+        android:id="@+id/sv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="#e0e0e0"
+        android:fadeScrollbars="true"
+        android:overScrollMode="always"
+        app:xsv_bounceEnabled="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:lineSpacingExtra="6dp"
+            android:paddingBottom="16dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:paddingTop="16dp"
+            android:text="XScrollView Demo\n1. Some words just for test."
+            android:textColor="#555555" />
+    </com.ximprovedview.android.XScrollView>
+
+</LinearLayout>

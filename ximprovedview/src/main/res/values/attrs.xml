@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="XScrollView">
+        <!-- ScrollView 控件的最大高度 -->
+        <attr name="android:maxHeight" />
+
+        <!-- 是否支持回弹效果 -->
+        <attr name="xsv_bounceEnabled" format="boolean" />
+
+        <!-- 回弹效果可以拖动的最大距离 -->
+        <attr name="xsv_bounceMaxScroll" format="dimension|reference" />
+    </declare-styleable>
+
+</resources>
